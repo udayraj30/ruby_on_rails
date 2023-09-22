@@ -1,0 +1,11 @@
+# Use an official PostgreSQL image as a parent image
+FROM postgres:13
+
+# Set the environment variable for PostgreSQL password
+ENV POSTGRES_PASSWORD mysecretpassword
+
+# Create a new PostgreSQL database
+ENV POSTGRES_DB myapp_development
+
+# Expose the PostgreSQL port
+EXPOSE 5432
