@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/udayraj30/ruby_on_rails.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
